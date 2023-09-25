@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 RUN apt-get update 
 RUN apt install git wget -y
-RUN git clone https://github.com/rambabukoppireddy/poojastores.git
+RUN git clone https://github.com/sureshyadavgorla/poojastores.git
 RUN mkdir dotnet
 ARG ROOT=/
 RUN wget https://download.visualstudio.microsoft.com/download/pr/e89c4f00-5cbb-4810-897d-f5300165ee60/027ace0fdcfb834ae0a13469f0b1a4c8/dotnet-sdk-3.1.426-linux-x64.tar.gz 
